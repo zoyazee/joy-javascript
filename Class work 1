@@ -1,0 +1,15 @@
+newtab?rlz=1C1NDCM_enKE836KE836&ie=UTF-8:8 SW registered
+var a = 2;
+undefined
+var fruits = ['apples', 'mangoes', 'oranges', 'watermelon', 'bananas']
+undefined
+fruits[1]
+"mangoes"
+var filter = function filter(x) {if (x == 'bananas') { return true}}
+undefined
+var filterByName = function filter(x) {if (x == 'bananas') { return true}}
+undefined
+fruits.filter(filterByName, 'banana')
+["bananas"]
+fruits.filter(filterByName, 'grapes')
+["bananas"]
