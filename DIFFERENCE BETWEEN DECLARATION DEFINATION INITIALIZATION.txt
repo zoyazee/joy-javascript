@@ -1,0 +1,18 @@
+         DIFFERENCE BETWEEN DECLARATION, DEFINATION AND INITIALIZATION
+DECLARATION
+Declaration is creating a variable –“declaring”.
+You declare a variable with the var keyword.
+     Example: var person;
+  You declared that there’s a variable named person, but didn’t
+  Define person so it’s undefined.
+Note- After declaration, the variable has no value.
+
+DEFINATION
+Definition is to assign a value to the allocated place or memory.
+       Example: var person = {};
+
+INITIALIZATION
+Initialization is the means of assigning an initial value to a variable.
+It is initialized with some value.
+          Example: var person =”Joy Wanja”;
+Note – Undefined is the initial value of a declared variable.
