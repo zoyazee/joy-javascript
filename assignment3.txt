@@ -1,0 +1,31 @@
+fruits_list=["Mangoes","Grapes","Kiwi","Pineapples"];
+
+(4) ["Mangoes", "Grapes", "Kiwi", "Pineapples"]
+
+var fruit_index=prompt("Choose any number from 0-3 to get a corresponding fruit.");
+
+function getFruit(fruits_list,fruit_index)
+ {
+return(fruits_list[fruit_index]);
+
+}
+
+undefined
+
+getFruit(fruits_list,fruit_index)
+
+"Kiwi"
+
+var fruit_index=prompt("Choose any number from 0-3 to get a corresponding fruit.");
+
+function getFruit(fruits_list,fruit_index)
+ {
+return(fruits_list[fruit_index]);
+
+}
+
+undefined
+
+getFruit(fruits_list,fruit_index)
+
+"Pineapples"
