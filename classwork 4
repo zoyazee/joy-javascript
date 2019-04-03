@@ -1,0 +1,96 @@
+var name = "Zoya Zee"
+undefined
+name.toUpperCase()
+"ZOYA ZEE"
+name.length
+8
+name.toLowerCase()
+"zoya zee"
+date()
+VM191:1 Uncaught ReferenceError: date is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM191:1
+Date()
+"Thu Mar 28 2019 18:51:36 GMT+0300 (East Africa Time)"
+var today = new Date()
+undefined
+today
+Thu Mar 28 2019 18:52:22 GMT+0300 (East Africa Time)
+var dob = "2000"
+undefined
+typeof dob
+"string"
+number(d0b)
+VM310:1 Uncaught ReferenceError: number is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM310:1
+Number (dob)
+2000
+var dob2 = Number(dob)
+undefined
+var a = null
+undefined
+typeof a
+"object"
+var person = {
+  name : "Jane Doe",
+  age : 20,
+  gender : "female"
+}
+undefined
+person.name
+"Jane Doe"
+person['name']
+"Jane Doe"
+person.name = "Joy"
+"Joy"
+person.name
+"Joy"
+person["name"]
+"Joy"
+person.name.toUpperCase()
+"JOY"
+var human = person
+undefined
+human
+{name: "Joy", age: 20, gender: "female"}
+human.name = "Brenda";
+"Brenda"
+human
+{name: "Brenda", age: 20, gender: "female"}
+var being = object.assign(human)
+VM909:1 Uncaught ReferenceError: object is not defined
+    at <anonymous>:1:13
+(anonymous) @ VM909:1
+vr being = Object.assign({}, human)
+VM990:1 Uncaught SyntaxError: Unexpected identifier
+var being = Object.assign({},human)
+undefined
+var person = ["Joy Wanja",21,"female"]
+undefined
+var person = {
+o : "Joy Wanja",
+1 : 21,
+2 : "female"
+}
+undefined
+person[1]
+21
+function getName() {
+    return "Joy Wanja"
+}
+undefined
+getName()
+"Joy Wanja"
+var myName = getName()
+undefined
+myName
+"Joy Wanja"
+[1,2,3] == "1,2,3"
+true
+var arr = [1,2,3]
+undefined
+string(arr)
+VM1456:1 Uncaught ReferenceError: string is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1456:1
