@@ -1,0 +1,34 @@
+var body = document.body
+body.style.backgroundColor = "silver"
+var body = document.getElementById("title")
+body.style.color = "green"
+var tag = document.getElementsByTagName("h3")
+tag[0].style.textTransform= "uppercase";
+tag[1].style.textTransform = "uppercase";
+
+var add = document.createElement("li")
+var text = document.createTextNode("Kiwi")
+add.appendChild(text)
+var fruit = document.getElementById("fruList");
+fruit.appendChild(add);
+var add = document.createElement("li")
+var text = document.createTextNode("Quava")
+add.appendChild(text)
+var fruit = document.getElementById("fruList");
+fruit.appendChild(add);
+var add = document.createElement("li")
+var text = document.createTextNode("Thornmelon")
+add.appendChild(text)
+var fruit = document.getElementById("fruList");
+fruit.appendChild(add);
+
+var addveg = document.createElement("li")
+var text = document.createTextNode("Spinach")
+addveg.appendChild(text)
+var vegetable = document.getElementById("vegList");
+vegetable.appendChild(addveg)
+var addveg = document.createElement("li")
+var text = document.createTextNode("Carrots")
+addveg.appendChild(text)
+var vegetable = document.getElementById("vegList");
+vegetable.appendChild(addveg)
