@@ -1,0 +1,44 @@
+var y = setInterval
+(function() {
+       var y = document.getElementById("title");
+            y.style.color = "green";
+            if (y.style.color == "green"){
+            y.style.color = "silver";
+            }
+        }, 1000);
+
+var coll = document.getElementsByClassName("collaps");
+var i;
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    } 
+  });
+}
+
+function addFruit(){
+  var li = document.createElement("li")
+  var input = document.getElementById("fruit");
+  li.innerHTML = input.value;
+  input.value = "";
+  document.getElementById("fruList").appendChild(li);
+        } 
+
+var veg = document.getElementById("myInput");
+input.addEventListener("keyup", function(event) {
+
+  if (event.keyCode === 13) {
+   event.preventDefault();
+    var li = document.createElement("li")
+  var veg = document.getElementById("myInput");
+  li.innerHTML = input.value;
+  input.value = "";
+  document.getElementById("vegList").appendChild(li);
+        } 
+  
+});
