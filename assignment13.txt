@@ -1,0 +1,41 @@
+<script type = 'text/javascript'>
+        fetch('http://localhost:5000/products')
+        .then(response => response.json())
+        .then(response => {
+            response.forEach(item => {
+                var myText = document.getElementById('products')
+                var myText2 = document.createElement('li');
+                var myText3 = document.createTextNode(item.name);
+                myText2.appendChild(myText3);
+                myText.appendChild(myText2);
+            })
+        })
+        </script>
+
+ <script type = 'text/javascript'>
+            fetch('http://localhost:5000/products/fruits')
+            .then(response => response.json())
+            .then(response => {
+                response.forEach(item => {
+                    var myText = document.getElementById('fruList')
+                    var myText2 = document.createElement('li');
+                    var myText3 = document.createTextNode(item.name);
+                    myText2.appendChild(myText3);
+                    myText.appendChild(myText2);
+                })
+            })
+            </script>
+
+<script type = 'text/javascript'>
+            fetch('http://localhost:5000/products/vegetables')
+            .then(response => response.json())
+            .then(response => {
+                response.forEach(item => {
+                    var myText = document.getElementById('vegList')
+                    var myText2 = document.createElement('li');
+                    var myText3 = document.createTextNode(item.name);
+                    myText2.appendChild(myText3);
+                    myText.appendChild(myText2);
+                })
+            })
+            </script>
